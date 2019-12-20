@@ -1,5 +1,6 @@
 from prac_06.programming_language import ProgrammingLanguage
 
+
 def main():
 
     ruby = ProgrammingLanguage("Ruby", "Dynamic", True, 1995)
@@ -12,5 +13,6 @@ def main():
     for language in languages:
         if language.is_dynamic():
             print(language.name)
+
 
 main()
