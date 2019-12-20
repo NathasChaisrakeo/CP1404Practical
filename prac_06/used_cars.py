@@ -14,4 +14,5 @@ def main():
     print(limo)
 
 
-main()
+if __name__ == '__main__':
+    main()
