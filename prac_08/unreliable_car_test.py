@@ -8,8 +8,8 @@ def main():
 
     for i in range(1, 15):
         print("Attempting to drive {}km: ".format(i))
-        print("{:10} drove {:2}km".format(good_car.name, good_car.drive(i)))
-        print("{:10} drove {:2}km".format(bad_car.name, bad_car.drive(i)))
+        print("{:10} travelled {:2}km".format(good_car.name, good_car.drive(i)))
+        print("{:10} travelled {:2}km".format(bad_car.name, bad_car.drive(i)))
 
     print(good_car)
     print(bad_car)
